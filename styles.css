@@ -1,0 +1,54 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.player {
+    background: #333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.song-image {
+    width: 300px;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.song-info {
+    margin: 15px 0;
+}
+
+.controls, .options {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+button {
+    background: #444;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #555;
+}
+
+#loopBtn.active, #shuffleBtn.active {
+    background: #555;
+}
