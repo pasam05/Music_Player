@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <img src="https://i.scdn.co/image/ab67616d0000b2738591a24a47e09545b988f9b2" alt="Song Image" class="song-image" id="songImage">
+        <div class="song-info">
+            <h2 id="songTitle">Song Title</h2>
+        </div>
+        <audio id="audio">
+            <source src="Fear.mp3"  type="audio/mp3">
+        
+        </audio>
+        <div class="controls">
+            <button id="prevBtn">⏮️</button>
+            <button id="playPauseBtn">⏯️</button>
+            <button id="nextBtn">⏭️</button>
+        </div>
+        <div class="options">
+            <button id="loopBtn">🔁</button>
+            <button id="shuffleBtn">🔀</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
